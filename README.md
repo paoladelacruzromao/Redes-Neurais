@@ -16,7 +16,7 @@ As redes neurais são comumente apresentadas como um grafo orientado, onde os v�
 
 O conhecimento obtido pela rede através dos exemplos é armazenado na forma de pesos das conexões, os quais serão ajustados a fim de tomar decisões corretas a partir de novas entradas, ou seja, novas situações do mundo real não conhecidas pela rede. O processo de ajuste dos pesos sinapticos é realizado pelo algoritmo de aprendizagem, responsável em armazenar na rede o conhecimento do mundo real obtido atraves de exemplos. Existem vários algoritmos de aprendizagem, dentre eles o backpropagation que é o algoritmo mais utilizado.
 
-![image](https://user-images.githubusercontent.com/87387315/189368271-a62a7356-a506-406a-b7a2-9d57ca744001.png)
+![image](https://user-images.githubusercontent.com/87387315/189378464-b1ef1a84-07e1-42e4-af94-60e3727701a7.png)
 
 Veia que temos umas setas rosas , elas indicam os dados de entrada, Para essa figura você tem 5 atributos, imagina você tem 5 atributos de uma pessoa e você quer preveer se vai pagar o emprestamo. Você alimenta o modelo para cada atributo atravez de uma operação para cada atributo , a operação executada vai ser uma operação de matrices uma que representa cada atributo e outra que representa os pesos, que são os coeficientes. Inicialmente quando empeza o treinamento a gente não sabe quais são os valores de pesose isso o que a gente quer aprender. Então crio uma matriz com os pesos inicializados de forma randomica. Depois multiplico a matriz de pesos pela matriz de valores de entrada. Cada um dessas operações (valor de cada atributo pelo peso), vai gerar uma saída , que são essas zetas intermediarias, 
 
