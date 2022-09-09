@@ -34,11 +34,11 @@ Há tantos termos a serem usados e muitos dos termos são intercambiáveis. Isto
 O  parâmetro  também  costuma  ser  chamado  de  peso  ou coeficiente. 
 Suas principais características são:•Eles são requeridospelo modelo parafazer previsões.
 
-•Os valores dos parâmetros definem ahabilidade do modelo em resolver seu problema.
+    •Os valores dos parâmetros definem ahabilidade do modelo em resolver seu problema.
 
-•Eles são estimados ou aprendidos a partir de dados.•Muitas vezes, eles nãoprecisam serconfigurados manualmente.
+    •Eles são estimados ou aprendidos a partir de dados.•Muitas vezes, eles nãoprecisam serconfigurados manualmente.
 
-•Eles geralmente são salvos como parte do modelo aprendido.Os parâmetros são fundamentais para algoritmos de aprendizagem de máquina.
+    •Eles geralmente são salvos como parte do modelo aprendido.Os parâmetros são fundamentais para algoritmos de aprendizagem de máquina.
 
 Eles são parte do modelo que é construídocom os dados históricos de treinamento.Na literatura de aprendizagem de máquina, podemos pensar no modelo como a hipótese e os parâmetroscomo a adaptação da hipótese a um conjunto específico de dados.Muitas vezes, os parâmetros do modelo são estimados usando um algoritmo de otimização, que é um tipo de pesquisa eficiente através de possíveis valores de parâmetros.Em Estatística e Programação, o termo parâmetro pode ter definições ligeiramente diferentes:Estatística: nas estatísticas, você pode assumir uma distribuição para uma variável, como uma distribuição Gaussiana.
 
@@ -70,10 +70,10 @@ Um hiperparâmetro de um modelo é uma configuração externa ao modelo e cujo v
 
 Não temos comoconhecer o melhor valor para um hiperparâmetro em um determinado problema.  Podemos  usar  regras  básicas,  copiar  valores  usados  em  outros  problemas  ou procurar o melhor valor por tentativa e erro.Quando  um  algoritmo  de  aprendizagem  de  máquina  é ajustadopara  um  problema específico, usando por exemplogrid searchou pesquisa aleatória, você está ajustando os hiperparâmetros  do  modelo  para  descobrir  os  parâmetros  do  modelo  que  resultam nas previsões mais precisas.Os hiperparâmetros do modelo são frequentemente referidos como parâmetros do modelo o que acaba gerando confusão. 
 
-Uma boa regra geral para superar essa confusão é a seguinte:Se você precisa especificar um parâmetro do modelo manualmente, entãoprovavelmente, este é um hiperparâmetro.Alguns exemplos de hiperparâmetros modelo incluem:
+Uma boa regra geral para superar essa confusão é a seguinte:**Se você precisa especificar um parâmetro do modelo manualmente, entãoprovavelmente, este é um hiperparâmetro.** Alguns exemplos de hiperparâmetros modelo incluem:
 
-•A taxa de aprendizado para treinar uma rede neural.
+    •A taxa de aprendizado para treinar uma rede neural.
 
-•Os hiperparâmetros C e sigma para máquinas de vetor de suporte(SVMs).
+    •Os hiperparâmetros C e sigma para máquinas de vetor de suporte(SVMs).
 
-•k em k-vizinhos mais próximos.
+    •k em k-vizinhos mais próximos.
