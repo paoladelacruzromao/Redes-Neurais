@@ -32,13 +32,13 @@ Alguns termos  podem parecer confusos  quando  você  começa  a  aprender Machi
 Há tantos termos a serem usados e muitos dos termos são intercambiáveis. Isto é especialmente verdadeiro se você veio de outro campo de estudo que pode usar alguns dos mesmos termos utilizados em aprendizagem de máquina, mas de forma diferente. E um bom exemplo disso são os termos "parâmetro" e “hiperparâmetro".Não ter uma definição clara para estes termos é uma dúvidacomum para iniciantes.Vamosentãocompreender as diferenças entre esses 2 termos.O que é um parâmetro do modelo?Um parâmetro domodelo é uma variável de que é interna ao modelo e cujo valor pode ser  estimado  a  partir  de  dados.
 
 O  parâmetro  também  costuma  ser  chamado  de  peso  ou coeficiente. 
-Suas principais características são:•Eles são requeridospelo modelo parafazer previsões.
+Suas principais características são:•Eles são requeridospelo modelo parafazer previsões
 
-    •Os valores dos parâmetros definem ahabilidade do modelo em resolver seu problema.
+•Os valores dos parâmetros definem ahabilidade do modelo em resolver seu problema.
 
-    •Eles são estimados ou aprendidos a partir de dados.•Muitas vezes, eles nãoprecisam serconfigurados manualmente.
+•Eles são estimados ou aprendidos a partir de dados.•Muitas vezes, eles nãoprecisam serconfigurados manualmente.
 
-    •Eles geralmente são salvos como parte do modelo aprendido.Os parâmetros são fundamentais para algoritmos de aprendizagem de máquina.
+•Eles geralmente são salvos como parte do modelo aprendido.Os parâmetros são fundamentais para algoritmos de aprendizagem de máquina.
 
 Eles são parte do modelo que é construídocom os dados históricos de treinamento.Na literatura de aprendizagem de máquina, podemos pensar no modelo como a hipótese e os parâmetroscomo a adaptação da hipótese a um conjunto específico de dados.Muitas vezes, os parâmetros do modelo são estimados usando um algoritmo de otimização, que é um tipo de pesquisa eficiente através de possíveis valores de parâmetros.Em Estatística e Programação, o termo parâmetro pode ter definições ligeiramente diferentes:Estatística: nas estatísticas, você pode assumir uma distribuição para uma variável, como uma distribuição Gaussiana.
 
