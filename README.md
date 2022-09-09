@@ -77,3 +77,8 @@ Uma boa regra geral para superar essa confusão é a seguinte:**Se você precisa
     •Os hiperparâmetros C e sigma para máquinas de vetor de suporte(SVMs).
 
     •k em k-vizinhos mais próximos.
+
+### Por Que Inicializamos os Pesos de Um Modelo de Rede Neural?
+
+http://deeplearningbook.com.br/inicializacao-de-pesos-em-redes-neurais-artificiais/
+
